@@ -1171,6 +1171,108 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry-internal/browser-utils@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@sentry-internal/browser-utils@npm:8.8.0"
+  dependencies:
+    "@sentry/core": "npm:8.8.0"
+    "@sentry/types": "npm:8.8.0"
+    "@sentry/utils": "npm:8.8.0"
+  checksum: 10c0/7213ad8f6e75eeb63f5eaa2818c7d49d323a22dea74b8635e50345ec6dcff3902885ab9bb0c93deb41b14c62920d698929482d6f118461903bf665fcc13283de
+  languageName: node
+  linkType: hard
+
+"@sentry-internal/feedback@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@sentry-internal/feedback@npm:8.8.0"
+  dependencies:
+    "@sentry/core": "npm:8.8.0"
+    "@sentry/types": "npm:8.8.0"
+    "@sentry/utils": "npm:8.8.0"
+  checksum: 10c0/38da000729a3fe04caf19d05ff1588a19d541b25361576006dc4fdd5618408f78e5276ba7f7b7fb8c5db6905cdc3540f7ae116eb41b2e5f036ef0483e452bc17
+  languageName: node
+  linkType: hard
+
+"@sentry-internal/replay-canvas@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@sentry-internal/replay-canvas@npm:8.8.0"
+  dependencies:
+    "@sentry-internal/replay": "npm:8.8.0"
+    "@sentry/core": "npm:8.8.0"
+    "@sentry/types": "npm:8.8.0"
+    "@sentry/utils": "npm:8.8.0"
+  checksum: 10c0/c660c8c8a721a57b031a76ab36645908a5c4a4383477424aa71c44da6b906cf03d0e0f565810a3bd40e8bb36824c076eb0141cb2e1c8c50190c80ed45d1e4b97
+  languageName: node
+  linkType: hard
+
+"@sentry-internal/replay@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@sentry-internal/replay@npm:8.8.0"
+  dependencies:
+    "@sentry-internal/browser-utils": "npm:8.8.0"
+    "@sentry/core": "npm:8.8.0"
+    "@sentry/types": "npm:8.8.0"
+    "@sentry/utils": "npm:8.8.0"
+  checksum: 10c0/f09a1b4514c33b5baa4fdfe89d2fa079c2fa4654d906b42418a5481f2c8205d0b9e6494c2f02afaf82fc732107ba92241dc75a772b2fa8542ecb3ff5a0a54b0e
+  languageName: node
+  linkType: hard
+
+"@sentry/browser@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@sentry/browser@npm:8.8.0"
+  dependencies:
+    "@sentry-internal/browser-utils": "npm:8.8.0"
+    "@sentry-internal/feedback": "npm:8.8.0"
+    "@sentry-internal/replay": "npm:8.8.0"
+    "@sentry-internal/replay-canvas": "npm:8.8.0"
+    "@sentry/core": "npm:8.8.0"
+    "@sentry/types": "npm:8.8.0"
+    "@sentry/utils": "npm:8.8.0"
+  checksum: 10c0/85d381b6de0c8bef5c819c3a1326638c0ed942570cb49cbf826e4de8c5e0715c46490e185592d16244e196939913c38efb9aa78a63dc8192b6eeb20f6ed878a7
+  languageName: node
+  linkType: hard
+
+"@sentry/core@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@sentry/core@npm:8.8.0"
+  dependencies:
+    "@sentry/types": "npm:8.8.0"
+    "@sentry/utils": "npm:8.8.0"
+  checksum: 10c0/a13464f48f62a8d29db8907f2d10e629f9d55447365e40b967b06b745a286dd1560b43994674f1f792b55601e0090909ed7289589d98e19590f835051c857af3
+  languageName: node
+  linkType: hard
+
+"@sentry/react@npm:^8.8.0":
+  version: 8.8.0
+  resolution: "@sentry/react@npm:8.8.0"
+  dependencies:
+    "@sentry/browser": "npm:8.8.0"
+    "@sentry/core": "npm:8.8.0"
+    "@sentry/types": "npm:8.8.0"
+    "@sentry/utils": "npm:8.8.0"
+    hoist-non-react-statics: "npm:^3.3.2"
+  peerDependencies:
+    react: ^16.14.0 || 17.x || 18.x || 19.x
+  checksum: 10c0/b0e98f3eca6c2c20697de7fac780ac54f8174374ee4b462157b877836a72481649682191ea9dbb85fbb8ed0f8fc3b8a94d3cf3ae6249b30729840927a7d9a954
+  languageName: node
+  linkType: hard
+
+"@sentry/types@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@sentry/types@npm:8.8.0"
+  checksum: 10c0/346f7d238d5d58801aef35189c3142248b9fe2a761d009b91cd45281e16f99eb64734a43fc59182547c901abf678df6a7d03a17436035304c881d5102c99ad77
+  languageName: node
+  linkType: hard
+
+"@sentry/utils@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@sentry/utils@npm:8.8.0"
+  dependencies:
+    "@sentry/types": "npm:8.8.0"
+  checksum: 10c0/4c26309f5ac3497f7ec78438e317b7b6055e8f4a9ba467d1ad8b830b3471d5e394270070662c780f617a5db5ca2d117b2321f5ced55cb9b80ccf10c895cdaecf
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.20.5":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -1283,7 +1385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^20.14.2":
   version: 20.14.2
   resolution: "@types/node@npm:20.14.2"
   dependencies:
@@ -3319,6 +3421,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hoist-non-react-statics@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "hoist-non-react-statics@npm:3.3.2"
+  dependencies:
+    react-is: "npm:^16.7.0"
+  checksum: 10c0/fe0889169e845d738b59b64badf5e55fa3cf20454f9203d1eb088df322d49d4318df774828e789898dcb280e8a5521bb59b3203385662ca5e9218a6ca5820e74
+  languageName: node
+  linkType: hard
+
 "http-cache-semantics@npm:^4.1.1":
   version: 4.1.1
   resolution: "http-cache-semantics@npm:4.1.1"
@@ -4140,7 +4251,9 @@ __metadata:
   resolution: "my-app@workspace:."
   dependencies:
     "@auth/core": "npm:^0.32.0"
+    "@sentry/react": "npm:^8.8.0"
     "@types/express": "npm:^4.17.21"
+    "@types/node": "npm:^20.14.2"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.12.0"
@@ -4155,6 +4268,7 @@ __metadata:
     lowdb: "npm:^7.0.1"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
+    react-streaming: "npm:^0.3.28"
     sass: "npm:^1.77.4"
     tsx: "npm:^4.12.0"
     typescript: "npm:^5.4.5"
@@ -4628,7 +4742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1":
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 10c0/33977da7a5f1a287936a0c85639fec6ca74f4f15ef1e59a6bc20338fc73dc69555381e211f7a3529b8150a1f71e4225525b41b60b52965bda53ce7d47377ada1
@@ -4642,7 +4756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-streaming@npm:^0.3.27":
+"react-streaming@npm:^0.3.27, react-streaming@npm:^0.3.28":
   version: 0.3.28
   resolution: "react-streaming@npm:0.3.28"
   dependencies:
