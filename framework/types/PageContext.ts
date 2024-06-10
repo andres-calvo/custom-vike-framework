@@ -1,19 +1,22 @@
-import type React from 'react'
-import type { JSX } from 'react'
-import type ReactDOM from 'react-dom/client'
+/* eslint-disable @typescript-eslint/no-namespace */
+import type React from "react";
+import type { JSX } from "react";
+import type ReactDOM from "react-dom/client";
 
 // https://vike.dev/pageContext#typescript
 declare global {
   namespace Vike {
     interface PageContext {
       /** The root React component of the page */
-      Page?: () => React.ReactNode
+      Page?: () => React.ReactNode;
       /** The user agent string of the user's browser */
-      userAgent?: string
+      userAgent?: string;
       /** The root React element of the page */
-      page?: JSX.Element
+      page?: JSX.Element;
       /** The React root DOM container */
-      root?: ReactDOM.Root
+      root?: ReactDOM.Root;
+
+      locale: string;
     }
   }
 }

@@ -12,6 +12,8 @@ export default {
   },
 
   passToClient: [
+    "locale",
+    "urlLogical",
     // https://github.com/vikejs/vike-react/issues/25
     process.env.NODE_ENV !== "production" && "$$typeof",
   ].filter(isNotFalse),
